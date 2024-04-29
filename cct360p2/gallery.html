@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Old+Standard+TT&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1 style="text-align: center;">My <u>Photography</u></h1>  
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-md custom-nav sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand custom-link" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="blog.html">Blog</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link custom-link dropdown-toggle active-nav" href="#" role="button" data-bs-toggle="dropdown">Portfolio</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item custom-drop" href="projects.html">Projects</a></li>
+                  <li><a class="dropdown-item custom-drop" href="gallery.html">Photography</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link custom-link" href="process.html">Process</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+          
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- Carousel -->
+<div class="container container-custom mt-5">
+    <h1>My Favourites</h1>
+<div id="demo" class="carousel slide custom-carousel mt-3 pt-1 pb-1" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/empstate.png" alt="empire state" class="carousel-img d-block" style="width:100%; height:400px;">
+      </div>
+      <div class="carousel-item">
+        <img src="images/IMG_1579.jpeg" alt="skyline" class="d-block" style="width:100%; height:400px;">
+      </div>
+      <div class="carousel-item">
+        <img src="images/IMG_9635.jpeg" alt="times square" class="d-block" style="width:100%; height:400px;">   
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+
+  <div class="container container-custom mt-5 mb-4">
+    <div class="row">
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <img src="images/bridge.jpeg" class="card-img" alt="bridge">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">NYC</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <img src="images/broadway.jpeg" class="card-img" alt="broadway">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">NYC</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <img src="images/empirestate.png" class="card-img" alt="empire state building">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">NYC</h5>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <img src="images/IMG_9407.jpeg" class="card-img" alt="garden">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Chicago</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col mt-4">
+            <div class="card bg-dark text-white">
+                <img src="images/IMG_1884.jpeg" class="card-img" alt="mountains">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Banff</h5>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+  </div>
+
+  <footer>
+    <div class="container container-custom">
+      <div class="row">
+        <div class="col-8 centered">
+          <h1>Mashal Nihal</h1>
+        </div>
+        <div class="col-4">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Photography</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+        
+    </div>
+  </footer>
+
+    
+      
+
+
+	<script src="index.js"></script>
+  </body>
+
+</html>

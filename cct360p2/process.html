@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Old+Standard+TT&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <h1>How this site was <u>made</u>.</h1>  
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-md custom-nav sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand custom-link" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link custom-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-link" href="blog.html">Blog</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link custom-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Portfolio</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item custom-drop" href="projects.html">Projects</a></li>
+                <li><a class="dropdown-item custom-drop" href="gallery.html">Photography</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link custom-link active-nav" href="process.html">Process</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container container-custom mt-5">
+        <h1>My Rationale</h1>
+          <div class="grid-container3">
+            <div class="grid-item3" style="background-color: #80799B;"></div>
+            <div class="grid-item3" style="background-color: #333333"></div>
+            <div class="grid-item3" style="background-color: rgba(113, 160, 176, 1);"></div>
+          </div>
+          <p>
+            I chose the colours of lilac, light blue, black, and white for my website's colour palette. 
+            Lilac and light blue are soft and calming colours that can help create a welcoming and approachable atmosphere on a website. 
+            Black is a neutral colour that can help create a modern and sophisticated look, and white is a clean and crisp color that can help create a sense of openness and clarity. 
+            These colours can also work well together to create a cohesive and harmonious colour scheme for a website. 
+            Additionally, these colours are often considered easy to read on screen and can help create a user-friendly and accessible website.
+          </p>
+          <p>
+            I used grids and wide margins to create a good website layout as they provide a structured and organized framework for the content. Wide margins good website layout by providing a structured and organized framework for the content. 
+            Bootstrap grids allowed me to structure different types of elements, such as texts, images, and buttons, in responsive and aesthetic ways. 
+          </p>
+          <p>
+            Different heading sizes and font weight also helped in providing a sense of hierarchy across elements.
+            I used Playfair Display for headings, and Lato for regular text. These serif and san-serif fonts compliment each other well, making the site hierarchy look well-structured.
+          </p>
+          <p>All photography is my own. On the blog page, I used screenshots of the websites my blog posts were discussing.</p>
+
+          <hr>
+
+          <h1>Accessibility</h1>
+          <p>
+            To ensure this website met the standards of WCAG 2.0 Accessibility, I added alterntive text to all the images. 
+            Buttons have descriptive values on them and form inputs have associated text labels. 
+            The reading and navigation order is logical and intuitive.
+            The navigation was accessible as each page was appropriately titled and the purpose of each link could be determined from the link text.
+            Because I made the font-weight thinner, I made sure to increase the font size to 1.1em for all paragraph text, making it readable. 
+            The colour contrast ratio (mostly black text on white, or white text on purple) made the colour contrast requirements. 
+          </p>
+    </div>
+
+    <footer>
+        <div class="container container-custom">
+          <div class="row">
+            <div class="col-8 centered">
+              <h1>Mashal Nihal</h1>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Photography</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+    
+          </div>
+            
+        </div>
+      </footer>
+
+
+
+	<script src="index.js"></script>
+  </body>
+
+</html>

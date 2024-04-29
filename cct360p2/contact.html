@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Old+Standard+TT&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+            <h1>How to <u>contact</u> me</h1>  
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-md custom-nav sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand custom-link" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-link" href="blog.html">Blog</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link custom-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Portfolio</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item custom-drop" href="projects.html">Projects</a></li>
+                  <li><a class="dropdown-item custom-drop" href="gallery.html">Photography</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link custom-link" href="process.html">Process</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-link active-nav" href="contact.html">Contact</a>
+                </li>
+              </ul>
+          
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container container-custom mt-5">
+    <h1>Send me a message</h1>
+    <form>
+      <div class="row mb-2 mt-5">
+        <div class="col">
+            <label for="fname" class="form-label">First Name:</label>
+          <input type="text" class="form-control" placeholder="Enter first name" name="first">
+        </div>
+        <div class="col">
+            <label for="lname" class="form-label">Last Name:</label>
+          <input type="text" class="form-control" placeholder="Enter last name" name="last">
+        </div>
+      </div>
+
+      <div class="row mb-2">
+      <div class="col">
+        <label for="email" class="form-label">First Name:</label>
+      <input type="text" class="form-control" placeholder="Enter email" name="email">
+      </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        </div>
+        </div>
+    </form>
+    <a href="#" class="mt-3 btn border-2 btn-outline-primary"><b>Submit</b></a>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h1>My Location</h1>
+    <p style="text-align: center;">Alternatively, you can find me at UTM.</p>
+    <div class="centered mb-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.673512636297!2d-79.66503274910966!3d43.550847166958995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b43e2bd858cd5%3A0xe20136a213847e8e!2sUniversity%20of%20Toronto%20Mississauga%20Library!5e0!3m2!1sen!2sca!4v1669157459367!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="container container-custom">
+      <div class="row">
+        <div class="col-8 centered">
+          <h1>Mashal Nihal</h1>
+        </div>
+        <div class="col-4">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Photography</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+        
+    </div>
+  </footer>
+
+
+	<script src="index.js"></script>
+  </body>
+
+</html>
